@@ -1,4 +1,6 @@
-from .imports import *
+import sys
+sys.path.append('/home/kaushik/Jupyter/Keras/Fastai/2018/fastai/fastai')
+from imports import *
 
 from sklearn_pandas import DataFrameMapper
 from sklearn.preprocessing import LabelEncoder, Imputer, StandardScaler
